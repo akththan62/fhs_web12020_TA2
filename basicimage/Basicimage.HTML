@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                padding:1vh;
+                color:#6a040f;
+            }
+            body {
+                background: #ffdab9;
+            }
+            header h1 {
+                padding:2vh;
+                width:60%;
+                margin:1vh auto;
+                border-radius:12px;
+            }
+            nav {
+                background:#6a040f;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:#6a040f;
+                color:white;
+                padding:2vh;
+                min-height:15vh;
+            }
+            .container {
+                min-height:75vh;
+                width:80%;
+                margin:1vh auto;
+                
+            }
+            .jumbotron img {
+                 width:100%;
+                 height:auto;
+                 display:block;
+                 filter: grayscale(80%) blur(1px) brightness(70%);
+                 border-radius: 12px;
+            }
+            .jumbotron {
+                position:relative;
+                width:100%;
+                color:white;
+                text-align:center;
+            }
+            .overly {
+                height:100%;
+                width:100%;
+                position:absolute;
+                bottom:0;
+                align-self:center;
+                left:0%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+                background:rgba(204, 27, 74,.35);
+                border-radius: 12px;
+            }
+            .overly h3 {
+                font-size:3rem;
+                margin: 1rem;
+            }
+            .overly p {
+                font-size:1.5rem;
+            }
+            .flex-container {
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: stretch;
+                gap:2rem;
+                padding:2rem;
+                background:snow;
+                margin:1vh auto;
+                
+            }
+            .flex-item {
+                flex:0 0 calc(100%/3 - 1.34rem);
+                outline:1px lightgray solid;
+                box-shadow: 8px 8px 12px 0px rgba(0, 0, 0,.5);
+            }
+            .flex-item h3 {
+                padding:2vh;
+                background-color: black;
+                color:white;
+            }
+            .flex-item p {
+                padding:2vh;
+                line-height: 1.5rem;
+            }
+            .media img {
+                width:100%;
+                display:block;
+            }
+        </style>
+        <title>Basic Image Gallery</title>
+    </head>
+    
+    <body>
+        <header>
+            &nbsp;
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        
+        <div class="container">
+            <div class="jumbotron">
+            <img src="Images/imagegallery.png" alt="#" title="jumbo image">
+            <div class="overly">
+                <h3>Basic Image Gallery</h3>
+                <p>Thangina Akther<br>
+                Web 1, 3rd HOUR<br>
+                11-20-2020</p>
+             </div>
+            
+            </div>
+        
+            <!-- Write Assignment code under here-->
+            <div class="flex-container">
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder1.png" alt="#">
+                    </div>
+                    <h3> Tennis</h3>
+                    <p>
+                        Tennis is a good sport for maintaining health and fitness. It is really fun to play and it's one of my favorite sport.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder2.png" alt="#">
+                    </div>
+                    <h3> Basketball</h3>
+                    <p>
+                        Basketball is a really good sport. It is the most entertaining sport.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder3.png" alt="#">
+                    </div>
+                    <h3> Baseball</h3>
+                    <p>
+                        Baseball is really fun to play. And it is really relaxed and carefree game.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder4.png" alt="#">
+                    </div>
+                    <h3> Soccer</h3>
+                    <p>
+                        Soccer is a good sport especially for maintaining health fitness. It is really fun and a most popular soprt in the world.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder5.png" alt="#">
+                    </div>
+                    <h3> Swimming</h3>
+                    <p>
+                        Swimming is a good sport and it's really fun. It is helps people burn calories and lose wight.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder6.png" alt="#">
+                    </div>
+                    <h3> Badminton </h3>
+                    <p>
+                        Badminton is a really good sport. It helps people build up muscles to make them stornger and I love to play badminton.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder7.png" alt="#">
+                    </div>
+                    <h3> Cricket</h3>
+                    <p>
+                        Cricket is a good sport for developing fitness. It is really enjoyable and fun to play.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder8.png" alt="#">
+                    </div>
+                    <h3> Hockey</h3>
+                    <p>
+                        Hockey is one if the best sport you can play. It is really fun and exciting but it's kind of hard.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder9.png" alt="#">
+                    </div>
+                    <h3> Golf</h3>
+                    <p>
+                        Golf is good sport it helps people to move around and exercise. It keeps people positive and focus.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                <div class="flex-item">
+                    <div class= "media">
+                        <img src="Images/placeholder10.png" alt="#">
+                    </div>
+                    <h3> Cycling </h3>
+                    <p>
+                        Cycling is good for muscle workout. And it is really easy and fun.
+                    </p>
+                </div><!-- End Flex item -->
+                
+                
+            </div><!-- End flex container -->
+            
+            
+            
+            
+            
+            
+        </div><!-- End of container -->
+        <footer>
+            Placeholder
+            
+        </footer>
+
+    <!-- End of page code, but be sure to copy closing tags below-->
+    </body>
+</html>
